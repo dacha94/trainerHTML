@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>habib</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding-left: 150px;
+            padding-right: 150px;
+            gap: 20px;
+        }
+        li {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        header {
+            width: 100%;
+            height: 76px;
+            margin-bottom: 100px;
+        }
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .social__icons {
+            width: 25px;
+            height: 25px;
+            margin-left: 10px;
+        }
+        .img__logo { 
+            width: 75px;
+            height: 75px;
+        }
+        nav {
+            display: flex;
+            gap: 70px;
+        }
+        .offer {
+            margin-bottom: 40px;
+        }
+        .img__offer {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 35px;
+        }
+        h1, h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .offer__title {
+            margin-bottom: 50px;
+        }
+        .registration__input {
+            width: 255px;
+            height: 35px;
+            border: 2px solid black;
+            margin-bottom: 20px;
+        }
+        .registration {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+        .button__form {
+            padding: 10px 50px;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <a href="#"> 
+                <img class="img__logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZk6PtKsNfdAOOvpXj04itJ3Md2SCwcE8S2A&usqp=CAU" alt="logo">
+            </a>
+            <nav>
+                <a href="#">home</a>
+                <a href="#">shop</a>
+                <a href="#">contact</a>
+                <a href="#">about us</a>
+            </nav>
+            <ul class="icons">
+                <li><a href="#"><img class="social__icons" src="img/vk.svg" alt="icon-vk"></a></li>
+                <li><a href="#"><img class="social__icons" src="img/vk.svg" alt="icon-vk"></a></li>
+                <li><a href="#"><img class="social__icons" src="img/vk.svg" alt="icon-vk"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+    <section class="offer">
+        <h1 class="offer__title">Бойцовский клуб</h1>
+        <ul>
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+
+            <li>
+                <img class="img__offer" src="https://warriors163.ru/wp-content/uploads/2017/08/5.jpg" alt="product">
+                <h3>Боксерская груша</h3>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="registration">
+        <form class="form" action="form">
+            <input class="registration__input" name="registration__email" type="email" placeholder="Твой email.."/>
+            <button class="button__form">Запишись к нам в секцию</button>
+        </form>
+    </section>
+    </main>
+</body>
+</html>

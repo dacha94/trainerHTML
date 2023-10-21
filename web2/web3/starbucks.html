@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starbucks</title>
+</head>
+<style>
+            body {
+            font-family: sans-serif;
+            margin: 0;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        li {
+            list-style-type: none;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        a {
+            
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 76px;
+            margin-bottom: 100px;
+        }
+        .logo__img {
+            width: 80px;
+            height: 80px;
+        }
+        nav {
+            display: flex;
+            gap: 60px;
+        }
+
+        .producto__title {
+            color: black;
+            text-transform: capitalize;
+        }
+        .producto__img {
+            width: 250px;
+            height: 250px;
+        }
+        h3, p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .producto__wrap {
+            display: inline-flex;
+        }
+        button{
+            padding: 10px 4px;
+            background-color: green;
+            border-radius: 25%;
+        }
+        h4 {
+            margin-right: 15px;
+        }
+
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="#">Our Menu</a>
+            <a href="#">Our Reviews</a>
+            <a href="#">Our History</a>
+        </nav>
+        <img class="logo__img" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="logo">
+        <nav>
+            <a href="#">Cart</a>
+            <a href="#">Help</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1 class="banner__title">Starbucks</h1>
+            <!-- <div class="banner__container" >
+                <div class="bg__yelow"><img class="img__banner" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="cup of coffee"></div>
+            </div> -->
+        </section>
+
+        <section class="producto">
+            <h2 class="producto__title">Our Coffee's</h2>
+            <ul>
+                <li>
+                    <img class="producto__img" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="vaso">
+                    <h3>Pina coffee</h3>
+                    <p>Best coffee in your life.☕️</p>
+                    <div class="producto__wrap">
+                        <h4>40$</h4>
+                        <button>Buy</button>
+                    </div>
+                </li>
+                <li>
+                    <img class="producto__img" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="vaso">
+                    <h3>Pina coffee</h3>
+                    <p>Best coffee in your life.☕️</p>
+                    <div class="producto__wrap">
+                        <h4>40$</h4>
+                        <button>Buy</button>
+                    </div>
+                </li>
+                <li>
+                    <img class="producto__img" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="vaso">
+                    <h3>Pina coffee</h3>
+                    <p>Best coffee in your life.☕️</p>
+                    <div class="producto__wrap">
+                        <h4>40$</h4>
+                        <button>Buy</button>
+                    </div>
+                </li>
+                <li>
+                    <img class="producto__img" src="https://i.pinimg.com/originals/44/b0/b6/44b0b6460f9ad67ee5e3f762e123263b.png" alt="vaso">
+                    <h3>Pina coffee</h3>
+                    <p>Best coffee in your life.☕️</p>
+                    <div class="producto__wrap">
+                        <h4>40$</h4>
+                        <button>Buy</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
